@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="75dp"
         android:fontFamily="@font/oregano"
         android:text="KotlinMessenger"
         android:textColor="@android:color/black"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/password_editTextTextPassword_register"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -32,12 +32,12 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:paddingLeft="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintEnd_toEndOf="@+id/email_editTextTextEmailAddress_register"
+        app:layout_constraintStart_toStartOf="@+id/email_editTextTextEmailAddress_register"
+        app:layout_constraintTop_toBottomOf="@+id/email_editTextTextEmailAddress_register" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/email_editTextTextEmailAddress_register"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -70,18 +70,18 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/register_button_register"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="?android:attr/colorPressedHighlight"
         android:text="Register"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintEnd_toEndOf="@+id/password_editTextTextPassword_register"
+        app:layout_constraintStart_toStartOf="@+id/password_editTextTextPassword_register"
+        app:layout_constraintTop_toBottomOf="@+id/password_editTextTextPassword_register" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/already_have_account_textView3_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -96,7 +96,7 @@
         android:layout_height="1dp"
         android:layout_marginBottom="16dp"
         android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/already_have_account_textView3_register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
