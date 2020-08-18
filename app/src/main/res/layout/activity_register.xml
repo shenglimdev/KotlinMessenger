@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/password_editTextTextPassword_register" />
 
     <TextView
-        android:id="@+id/already_have_account_textView3_register"
+        android:id="@+id/back_to_registration_textView_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -96,7 +96,7 @@
         android:layout_height="1dp"
         android:layout_marginBottom="16dp"
         android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toTopOf="@+id/already_have_account_textView3_register"
+        app:layout_constraintBottom_toTopOf="@+id/back_to_registration_textView_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

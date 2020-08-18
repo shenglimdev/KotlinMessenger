@@ -16,7 +16,7 @@ class RegisterActivity : AppCompatActivity() {
             val password = password_editTextTextPassword_register.text.toString()
         }
 
-        already_have_account_textView3_register.setOnClickListener {
+        back_to_registration_textView_login.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
